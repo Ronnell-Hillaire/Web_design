@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 2500px;
+    display: block;
+}
+
+/* Remember... THis is for the nav bar */
+.nav-bar{
+    background-color: teal;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo{
+    color: #0073ff;
+    text-decoration: none;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo:hover {
+    color:none;
+}
+
+.logo span{
+    color: white;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar ul li{
+    padding: 10px 30px;
+}
+
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-bar ul li a:hover {
+    color:aquamarine;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: teal;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.services:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: none;
+}
+
+.services:hover .dropdown li {
+    display: block;
+}
+/*above is nav bar*/
+
+/* testimonial section*/
+
+#body1 {
+    width: 100%;
+    height: 550px;
+    background-color: red;
+}
+
+#testi1 {
+    width: 25%;
+    height: 250px;
+    background-color: purple;
+    float: left;
+    padding: 20px;
+    
+}
+
+.small-square {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    float: center;
+    margin: auto;
+    border-radius: 15%;
+
+}
+
+
+.testi2 {
+    width: 75%;
+    height: 250px;
+    float: right;
+    background-color: aqua;
+}
+
+.collision1 {
+    float: left;
+    height: 750px;
+    width: 1050px;
+    z-index: 1;
+    background: darkblue;
+    
+}
+
+.colllision2 {
+   float: right;
+    margin-left: -600px;
+    width: 800px;
+    height: 750px;
+    z-index: 3;
+    background-color: aqua;
+    opacity: 0.7;
+}
+
+.collisiona {
+    float: right;
+    height: 800px;
+    width: 1050px;
+    z-index: 1;
+    background: darkblue;
+    margin-top: 10px;
+}
+
+.collisionb {
+    float: left;
+    margin-right: -800px;
+    width: 800px;
+    height: 800px;
+    z-index: 3;
+    background-color: aqua;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+#holder {
+    height: 150px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    height: 65px;
+    width: 150px;
+    background-color: darkblue;
+}
+
+.button a {
+    font-family: ;
+    color: aliceblue;
+    font-weight: 1000;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: darkgray;
+}
